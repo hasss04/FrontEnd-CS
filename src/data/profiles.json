@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "name": "Lester , C",
+    "photo": "https://picsum.photos/200/300",
+    "description": "Frontend Developer",
+    "address": "1600 Amphitheatre Parkway, Mountain View, CA",
+    "latitude": 37.4221,
+    "longitude": -122.0841,
+    "contact": "lester@example.com",
+    "interests": ["JavaScript", "React", "Open Source"]
+  },
+  {
+    "id": 2,
+    "name": "Sarah , W",
+    "photo": "https://picsum.photos/200/300?random=2",
+    "description": "Backend Developer",
+    "address": "1 Hacker Way, Menlo Park, CA",
+    "latitude": 37.4849,
+    "longitude": -122.1484,
+    "contact": "sarah@example.com",
+    "interests": ["Node.js", "Databases", "Microservices"]
+  },
+  {
+    "id": 3,
+    "name": "Chris , P",
+    "photo": "https://picsum.photos/200/300?random=3",
+    "description": "UI/UX Designer",
+    "address": "5 Main Street, Los Angeles, CA",
+    "latitude": 34.0522,
+    "longitude": -118.2437,
+    "contact": "chris@example.com",
+    "interests": ["Design Systems", "Figma", "Illustration"]
+  },
+  {
+    "id": 4,
+    "name": "Tina , M",
+    "photo": "https://picsum.photos/200/300?random=4",
+    "description": "DevOps Engineer",
+    "address": "300 Boylston Ave, Seattle, WA",
+    "latitude": 47.6062,
+    "longitude": -122.3321,
+    "contact": "tina@example.com",
+    "interests": ["CI/CD", "Kubernetes", "Cloud Infrastructure"]
+  },
+  {
+    "id": 5,
+    "name": "Johnny , K",
+    "photo": "https://picsum.photos/200/300?random=5",
+    "description": "Data Scientist",
+    "address": "100 Data Drive, Austin, TX",
+    "latitude": 30.2672,
+    "longitude": -97.7431,
+    "contact": "johnny@example.com",
+    "interests": ["Machine Learning", "Python", "Data Visualization"]
+  },
+  {
+    "id": 6,
+    "name": "Mark , Z",
+    "photo": "https://picsum.photos/200/300?random=6",
+    "description": "Frontend Developer",
+    "address": "1234 Elm St, Palo Alto, CA",
+    "latitude": 37.4419,
+    "longitude": -122.1430,
+    "contact": "mark@example.com",
+    "interests": ["HTML", "CSS", "JavaScript"]
+  },
+  {
+    "id": 7,
+    "name": "Alice , B",
+    "photo": "https://picsum.photos/200/300?random=7",
+    "description": "Mobile App Developer",
+    "address": "123 App St, San Francisco, CA",
+    "latitude": 37.7749,
+    "longitude": -122.4194,
+    "contact": "alice@example.com",
+    "interests": ["Flutter", "React Native", "App Optimization"]
+  },
+  {
+    "id": 8,
+    "name": "Ethan , L",
+    "photo": "https://picsum.photos/200/300?random=8",
+    "description": "Backend Developer",
+    "address": "321 Secure Ave, Washington, DC",
+    "latitude": 38.9072,
+    "longitude": -77.0369,
+    "contact": "ethan@example.com",
+    "interests": ["REST APIs", "GraphQL", "Databases"]
+  },
+  {
+    "id": 9,
+    "name": "Sophia , J",
+    "photo": "https://picsum.photos/200/300?random=9",
+    "description": "Cloud Architect",
+    "address": "555 Cloud Way, Denver, CO",
+    "latitude": 39.7392,
+    "longitude": -104.9903,
+    "contact": "sophia@example.com",
+    "interests": ["AWS", "Azure", "Cloud Cost Optimization"]
+  },
+  {
+    "id": 10,
+    "name": "Liam , F",
+    "photo": "https://picsum.photos/200/300?random=10",
+    "description": "AI Engineer",
+    "address": "77 AI Blvd, Boston, MA",
+    "latitude": 42.3601,
+    "longitude": -71.0589,
+    "contact": "liam@example.com",
+    "interests": ["Deep Learning", "AI Ethics", "NLP"]
+  },
+  {
+    "id": 11,
+    "name": "Isabella , D",
+    "photo": "https://picsum.photos/200/300?random=11",
+    "description": "Game Developer",
+    "address": "200 Game Lane, San Diego, CA",
+    "latitude": 32.7157,
+    "longitude": -117.1611,
+    "contact": "isabella@example.com",
+    "interests": ["Unity", "C#", "Game Design"]
+  },
+  {
+    "id": 12,
+    "name": "Noah , H",
+    "photo": "https://picsum.photos/200/300?random=12",
+    "description": "Frontend Developer",
+    "address": "404 Crypto St, Miami, FL",
+    "latitude": 25.7617,
+    "longitude": -80.1918,
+    "contact": "noah@example.com",
+    "interests": ["JavaScript", "Angular", "CSS"]
+  },
+  {
+    "id": 13,
+    "name": "Emma , K",
+    "photo": "https://picsum.photos/200/300?random=13",
+    "description": "System Administrator",
+    "address": "700 Admin Rd, Chicago, IL",
+    "latitude": 41.8781,
+    "longitude": -87.6298,
+    "contact": "emma@example.com",
+    "interests": ["Linux", "Windows Servers", "IT Automation"]
+  },
+  {
+    "id": 14,
+    "name": "Oliver , P",
+    "photo": "https://picsum.photos/200/300?random=14",
+    "description": "Machine Learning Engineer",
+    "address": "950 AI Lab, Raleigh, NC",
+    "latitude": 35.7796,
+    "longitude": -78.6382,
+    "contact": "oliver@example.com",
+    "interests": ["Neural Networks", "TensorFlow", "Reinforcement Learning"]
+  },
+  {
+    "id": 15,
+    "name": "Ava , N",
+    "photo": "https://picsum.photos/200/300?random=15",
+    "description": "SEO Specialist",
+    "address": "120 Web Street, Austin, TX",
+    "latitude": 30.2672,
+    "longitude": -97.7431,
+    "contact": "ava@example.com",
+    "interests": ["Content Optimization", "Analytics", "Keyword Research"]
+  },
+  {
+    "id": 16,
+    "name": "Lucas , B",
+    "photo": "https://picsum.photos/200/300?random=16",
+    "description": "Data Scientist",
+    "address": "89 Helpdesk Blvd, Portland, OR",
+    "latitude": 45.5051,
+    "longitude": -122.6750,
+    "contact": "lucas@example.com",
+    "interests": ["Data Analysis", "R", "Statistics"]
+  },
+  {
+    "id": 17,
+    "name": "Mia , R",
+    "photo": "https://picsum.photos/200/300?random=17",
+    "description": "DevOps Engineer",
+    "address": "310 DevOps St, Dallas, TX",
+    "latitude": 32.7767,
+    "longitude": -96.7970,
+    "contact": "mia@example.com",
+    "interests": ["Jenkins", "Ansible", "Docker"]
+  },
+  {
+    "id": 18,
+    "name": "James , T",
+    "photo": "https://picsum.photos/200/300?random=18",
+    "description": "Digital Marketing Manager",
+    "address": "800 Marketing Blvd, New York, NY",
+    "latitude": 40.7128,
+    "longitude": -74.0060,
+    "contact": "james@example.com",
+    "interests": ["Google Ads", "Social Media", "Content Strategy"]
+  },
+  {
+    "id": 19,
+    "name": "Amelia , S",
+    "photo": "https://picsum.photos/200/300?random=19",
+    "description": "Backend Developer",
+    "address": "400 Stack Lane, Las Vegas, NV",
+    "latitude": 36.1699,
+    "longitude": -115.1398,
+    "contact": "amelia@example.com",
+    "interests": ["Node.js", "Express", "SQL"]
+  },
+  {
+    "id": 20,
+    "name": "Benjamin , Y",
+    "photo": "https://picsum.photos/200/300?random=20",
+    "description": "AI Researcher",
+    "address": "15 Research Lane, Houston, TX",
+    "latitude": 29.7604,
+    "longitude": -95.3698,
+    "contact": "benjamin@example.com",
+    "interests": ["Generative AI", "GANs", "Computer Vision"]
+  }
+]
