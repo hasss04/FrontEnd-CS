@@ -1,8 +1,23 @@
 # Getting Started with Create React App
 
-NETLIFY LINK : https://clever-platypus-720ea1.netlify.app/
+## Live Demo
+[Visit the App](https://clever-platypus-720ea1.netlify.app/)
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Project Description
+
+This React app includes the following features:
+- **Dark and Light Mode Toggle:** Users can switch between dark and light themes.
+- **Profiles Section:** Displays 20 user profiles.
+- **Hamburger Menu:** Allows filtering of profiles by roles.
+- **Admin Dashboard:** 
+  - Comes with a sign-in page.
+  - Preset admin account:
+    - **Username:** `admin`
+    - **Password:** `admin@123`
+  - Semi-functional dashboard with features to add and save user profiles (local storage integration pending, no database).
 
 ## Available Scripts
 
@@ -70,5 +85,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-
