@@ -24,6 +24,7 @@ const AdminDashboard = ({ theme, toggleTheme }) => {
     description: "",
     address: "",
   });
+  const [photoFile, setPhotoFile] = useState(null);
   const [editMode, setEditMode] = useState(false);
 
   // Load profiles from profiles.json on initial render
@@ -36,8 +37,19 @@ const AdminDashboard = ({ theme, toggleTheme }) => {
     setForm((prev) => ({ ...prev, [name]: value }));
   };
 
+  const handleFileChange = (e) => {
+    const file = e.target.files[0];
+    if (file) {
+      setPhotoFile(file);
+      setForm((prev) => ({
+        ...prev,
+        photo: URL.createObjectURL(file), // Temporarily display uploaded image
+      }));
+    }
+  };
+
   const handleAdd = () => {
-    if (form.name && form.description && form.photo && form.address) {
+    if (form.name && form.description && (form.photo || photoFile) && form.address) {
       const newProfile = {
         ...form,
         id: Date.now(),
@@ -79,11 +91,17 @@ const AdminDashboard = ({ theme, toggleTheme }) => {
       description: "",
       address: "",
     });
+    setPhotoFile(null);
   };
 
   return (
     <>
-      <Header theme={theme} toggleTheme={toggleTheme} showAdminButton={false} showMenu={false} />
+      <Header
+        theme={theme}
+        toggleTheme={toggleTheme}
+        showAdminButton={false}
+        showMenu={false}
+      />
       <Container sx={{ marginTop: "40px" }}>
         <Typography variant="h4" gutterBottom>
           Admin Dashboard
@@ -110,6 +128,26 @@ const AdminDashboard = ({ theme, toggleTheme }) => {
                 value={form.photo}
                 onChange={handleChange}
               />
+            </Grid>
+            <Grid item xs={12}>
+              <Button
+                variant="contained"
+                component="label"
+                sx={{ marginBottom: "10px" }}
+              >
+                Upload Photo
+                <input
+                  type="file"
+                  accept="image/*"
+                  hidden
+                  onChange={handleFileChange}
+                />
+              </Button>
+              {photoFile && (
+                <Typography variant="body2">
+                  Selected file: {photoFile.name}
+                </Typography>
+              )}
             </Grid>
             <Grid item xs={12}>
               <TextField
