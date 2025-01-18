@@ -17,7 +17,7 @@ This React app includes the following features:
   - Preset admin account:
     - **Username:** `admin`
     - **Password:** `admin@123`
-  - Semi-functional dashboard with features to add and save user profiles (local storage integration pending, no database).
+  - Semi-functional admin dashboard with features to add and save user profiles (local storage integration pending, no database).
  
   - Random Photos by Lorem Picusm for Profile Photos https://picsum.photos/
 
